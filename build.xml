@@ -77,7 +77,7 @@
     </target>
 
     <target name="jar" depends="compile">
-        <jar jarfile="target/connectfour.jar" basedir="target/classes"/>
+        <jar jarfile="target/connectfour.war" basedir="target/classes"/>
     </target>
 	
 	 <!-- Creates Javadoc -->
